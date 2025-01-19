@@ -1,0 +1,7 @@
+from os import getenv
+
+
+class Env:
+
+    OPENWHEATERMAP_BASE_URL = getenv("OPENWHEATERMAP_BASE_URL")
+    OPENWHEATERMAP_APPID = getenv("OPENWEATHERMAP_APPID")
