@@ -2,7 +2,7 @@ from datetime import datetime
 import json
 from typing import Dict
 import requests
-from raw.OpenWheatherMap.geocoding_api import GeoCoding
+from raw.open_wheather_map.geocoding_api import GeoCoding
 from common.environment import Env
 
 
